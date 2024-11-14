@@ -1,13 +1,9 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-
   const presentationDate = "December 18, 2024";
   const presenterName = "Artem Shelamanov";
   function downloadPresentation() {
-    // Replace with your actual file path
     const fileUrl = '/presentations/llm-presentation.pdf';
     
-    // Create a hidden link and click it
     const link = document.createElement('a');
     link.href = fileUrl;
     link.download = 'LLM-Presentation.pdf'; // Suggested filename for download
@@ -19,7 +15,7 @@
 
 <main class="container mx-auto px-4 py-8 max-w-4xl">
   <header class="mb-16 border-b pb-8">
-    <h1 class="text-4xl font-bold mb-4">How Do Large Language Models Work?!</h1>
+    <h1 class="text-4xl font-bold mb-4">How Do Large Language Models Work?</h1>
     <div class="text-gray-600">
       <p class="text-xl">Presented by {presenterName}</p>
       <p class="text-gray-500">{presentationDate}</p>
