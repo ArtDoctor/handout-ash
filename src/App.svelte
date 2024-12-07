@@ -6,7 +6,7 @@
     
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'LLM-Presentation.pdf'; // Suggested filename for download
+    link.download = 'llm-presentation.pdf'; // Suggested filename for download
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -79,13 +79,14 @@
             <span>📥</span> Download Presentation
           </button>
         </div>
-        
+
         <div class="space-y-3">
           <h3 class="font-semibold">References</h3>
           <ul class="space-y-2 text-sm">
             <li>1. Vaswani, A., et al. (2017). "Attention is All you Need" - Advances in Neural Information Processing Systems</li>
-            <li>2. Ollama - <a href="https://ollama.com" class="text-blue-600 hover:underline">https://ollama.com</a></li>
-            <li>3. "How do Language Models(LLM) work?" - LinkedIn Article</li>
+            <li>2. Ollama - <a href="https://ollama.com" class="text-blue-600 hover:underline">https://ollama.com</a> - availability checked at 11.13.2024</li>
+            <li>3. "How do Language Models(LLM) work?" - LinkedIn Article - <a href="https://www.linkedin.com/pulse/how-do-language-modelsllm-work-we-call-chatgpt-mishra-fdqsc/" class="text-blue-600 hover:underline">https://www.linkedin.com/pulse/how-do-language-modelsllm-work-we-call-chatgpt-mishra-fdqsc/</a> - availability checked at 11.14.2024</li>
+            <li>4. ChatGPT Users - Exploding Topics - <a href="https://explodingtopics.com/blog/chatgpt-users%C2%A0" class="text-blue-600 hover:underline">https://explodingtopics.com/blog/chatgpt-users%C2%A0</a></li>
           </ul>
         </div>
       </div>
@@ -95,7 +96,6 @@
   <footer class="mt-16 pt-8 border-t text-gray-600">
     <div class="text-left">
       <h3 class="font-semibold mb-2">Contact Information</h3>
-      <p>Personal email: artdoctorka@gmail.com</p>
       <p>CVUT email: shelaart@cvut.cz</p>
       <p class="text-sm mt-2">Presentation delivered on {presentationDate}</p>
     </div>
